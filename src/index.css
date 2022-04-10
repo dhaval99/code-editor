@@ -1,0 +1,32 @@
+.dark {
+  background-color: #242526;
+  color:white;
+  resize: vertical;
+  overflow: none;
+
+ 
+}
+
+.runButton{
+  height: fit-content;
+  margin: 5px;
+  padding: 5px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.editorComponent {
+  flex-grow: 1;
+  min-height: 80vh;
+  border: 1px solid black;
+  border-radius: 10px;
+ 
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
